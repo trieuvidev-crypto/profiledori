@@ -1,0 +1,60 @@
+/* ==========================================================================
+   website-card.css — Card giới thiệu website/dự án đang quản lý
+   ========================================================================== */
+
+.website-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 28px 20px;
+  border-radius: var(--radius-lg);
+  background: var(--color-bg-elevated);
+  box-shadow: var(--shadow-sm);
+}
+
+.website-card__icon {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  background: #eef0f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.website-card__icon svg {
+  width: 28px;
+  height: 28px;
+  color: var(--color-text);
+}
+
+.website-card__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.website-card__subtitle {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-top: 4px;
+}
+
+.website-card__btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 10px 22px;
+  border-radius: var(--radius-full);
+  border: 1.5px solid #f5b942;
+  color: #d3861a;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.website-card__btn svg {
+  width: 15px;
+  height: 15px;
+}
